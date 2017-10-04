@@ -1,5 +1,10 @@
+start your jupyter:
+in your terminal, type jupyter notebook. and you will see the jupyter notebook.
+
+
 UnicodeDecodeError: 'utf8' codec can't decode byte 0x80 in position
 open file with notepad, goto edit->eol conversion->unix lf
+
 
 
 ValueError: need more than 1 value to unpack
