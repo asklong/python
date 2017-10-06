@@ -1,16 +1,19 @@
-start your jupyter:
+1 start your jupyter:
 in your terminal, type jupyter notebook. and you will see the jupyter notebook.
 
 
-UnicodeDecodeError: 'utf8' codec can't decode byte 0x80 in position
+2 UnicodeDecodeError: 'utf8' codec can't decode byte 0x80 in position
 open file with notepad, goto edit->eol conversion->unix lf
 
 
 
-ValueError: need more than 1 value to unpack
+3 ValueError: need more than 1 value to unpack
 This is probably because when you're doing the splitting, 
 there is no :, so the function just returns one argument, and not 2. 
 
 
-all fileds are show as utf8 code:
-
+3 file show no chinese characters:
+The string data type is also used to represent arrays of bytes, e.g., to hold data read from a file.
+也就是说在读取一个文件的内容，或者从网络上读取到内容时，保持的对象为str类型；
+如果想把一个str转换成特定编码类型，需要把str转为Unicode,然后从unicode转为特定的编码类型如：utf-8、gb2312等。
+str.decode("unicode_escape").encode("utf8")
