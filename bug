@@ -10,3 +10,7 @@ open file with notepad, goto edit->eol conversion->unix lf
 ValueError: need more than 1 value to unpack
 This is probably because when you're doing the splitting, 
 there is no :, so the function just returns one argument, and not 2. 
+
+
+all fileds are show as utf8 code:
+
