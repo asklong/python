@@ -19,6 +19,5 @@ http://cheng.logdown.com/posts/2015/01/15/ascii-codec-cant-encode-decode-errors-
 This inspection detects names that should resolve but don't
 http://blog.csdn.net/u014496330/article/details/55211398
 solve Pycharm cannot import package: Unresolved reference
-set source in pycharm
-
+set source in pycharm:
 file–>setting–>project:server–>project structure
