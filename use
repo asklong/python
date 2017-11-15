@@ -9,3 +9,8 @@ paths = paths + [os.path.join(path1, 'part-000%d'%i) for i in xrange(10, 100)]
 
 for one_path in paths:
   for line in file(one_path):
+
+write data line by line to file:
+f = open('myfile', 'w')
+f.write('hi there\n')  # python will convert \n to os.linesep
+f.close()  
